@@ -1,0 +1,203 @@
+<head><!-- Contiene informacion interna del documento(metadatos).No es contenido visible en la pagina -->
+    <meta charset="UTF-8">
+    <!-- Define la codificacion de caracteres.Permite usar tildes,ñ y caracteres especiales correctamente -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    -<!-- Hace que la pagina sea adaptable a dispositivos moviles(responsive).With=device-width ajusta el ancho al dispositivo. initial-scale=1.0 establece el zoom inicial -->
+    <title>📁hoja de vida MD</title><!-- establece el titulo el titulo en la pestaña de la pagina web. -->
+    <!--Bootstrap CSS para que me aplique los cambios en la foto -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="styles.css">
+
+
+</head><!-- Cierra el cuerpo del documento -->
+
+<body><!-- Contiene todo el contenido visible de la pagina: textos, imagenes, botones, enlaces, etc. -->
+    <main id="pdf-content">
+        <!-- Representa el contenido principal de la pagina. El id="pdf-content"permite convertir esta seccion de PDF.-->
+
+        <div class="container my-5">
+            <!--  Es una clase de bootstrap que centra el contenidob y le da un ancho adaptable(responsive) -->
+
+            <div class="row shadow-lg rounded-4 overflow-hidden">
+                <!-- "row"es parte del sistema de grid (columnas) de bootstrap.Sirve para organizar columnas dentro de la fila. -->
+
+                <div class="col-md-4 bg-primary text-white p-4">
+                    <!-- Columna de 4/12, fondo azul,texto blanco y espacio interno amplio -->
+
+                    <header class"text-center">
+                        <!-- representa el encabezado de la pagina o seccion."text-center" es una clase de bootstrap que centra todo el texto y contenido interno horizontalmente. -->
+
+                        <img src="img/mifoto.jpg" class="rounded-circle border border-4 img-fluid mb-3"
+                            alt="samuel"><!-- Inserta una imagen.src=img/Mifoto.png"indica que la imagen sea circular."border"agrega un borde alrededor."border-4"define el grosor del borde(nivel 4)."img-fluid"hace que la imagen sea responsive(se adapta al tamaño de pantalla)."mb-3"agrega margen inferior(margin-bottom nivel 3).alte="samuel"es el texto alternativo que aparece si la imagen no carga y mejora la accesibilidad -->
+
+                        <h2 class="fw-bold">Maycol David Garcia</h2>
+                        <!-- Titulo de nivel 2."fw-bold"(font-weight bold)aplica negrilla usando bootstrap. -->
+                        <h5>Bachiller Académico</h5>
+                        <h5>Técnico en Programacón de Software</h5>
+                    </header>
+
+                    <section class="my-4">
+
+                        <h5 class="fw-bold mb-3"><i class="fas fa-address-card me-2"></i>Contacto</h5>
+
+                        <ul class="list-unstyled">
+                            <li class="mb-3">
+                                <a href="https://wa.me/573126746268?text=I%27m%20interested%20in%20your%20car%20for%20sale"
+                                    target="_blank" class="text-white">
+                                    <i class="fa-brands fa-whatsapp me-2"></i>
+                                    <!-- https://fontawesome.com/icons/square-whatsapp -->
+                                    +57 312 6746268
+                                </a>
+                            </li>
+
+                            <li class="mb-3">
+                                <a href="mailto:maycoldagarcia2@gmail.com" target="_blank" class="text-white">
+                                    <i class="fas fa-envelope me-2"></i>
+                                    maycoldagarcia2@gmail.com
+                                </a>
+                            </li>
+
+                            <li class="mb-3">
+                                <!-- Enlace de facebook -->
+                                <a href="https://www.facebook.com/maikoldavid.garciahurtado/" target="_blank"
+                                    class="text-white">
+                                    <i class="fab fa-square-facebook"></i>
+                                    facebook/Garcia Maycol
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <h5 class="fw-bold mb-3">
+                        <i class="fas fa-code me-2"></i>Habilidades
+                    </h5>
+
+                    <!-- HTML/CSS -->
+                    <div class="d-flex justify-content-between">
+                        <span>HTML/CSS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress mb-3" style="height: 8px;">
+                        <div class="progress-bar bg-info" style="width: 70%;"></div>
+                    </div>
+
+                    <!-- Inglés -->
+                    <div class="d-flex justify-content-between">
+                        <span>Inglés</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress mb-3" style="height: 8px;">
+                        <div class="progress-bar bg-info" style="width: 80%;"></div>
+                    </div>
+
+                    <!-- Puedes agregar más habilidades aquí siguiendo el mismo patrón -->
+                    </section>
+
+                </div>
+                <!-- Columna Derecha -->
+                <div class="col-md-8 p-4" style="background-color: rgb(227, 233, 232);">
+
+                    <section class="mb-5">
+                        <h4 class="fw-bold text-primary mb-4">
+                            <i class="fas fa-briefcase me-3"></i>
+                            Experiencia Laboral
+                        </h4>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    practicante aprendiz sena
+                                </h4>
+
+                                <h5 class="card-subtitle mb-2 text-muted small">
+                                    01 de julio de 2026 – 30 de noviembre 2026
+                                </h5>
+
+                                <h6 class="mb-2 text-muted small" style="text-align: justify;">
+                                    Durante la etapa productiva como aprendiz del Servicio Nacional de Aprendizaje
+                                    (SENA), participé activamente en el desarrollo de actividades relacionadas con mi
+                                    área de formación, aplicando los conocimientos adquiridos en el proceso académico.
+                                    Apoyé tareas técnicas y administrativas, fortaleciendo competencias como el trabajo
+                                    en equipo, la responsabilidad, la comunicación efectiva y la solución de problemas.
+                                    Esta experiencia me permitió adquirir habilidades prácticas en un entorno laboral
+                                    real, contribuyendo al cumplimiento de metas y al mejoramiento continuo de mis
+                                    capacidades profesionales.
+                                </h6>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mb-5">
+                        <h4 class="fw-bold text-primary mb-4">
+                            <i class="fa-solid fa-graduation-cap me-3"></i>
+                            Educación
+                        </h4>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    Tegnico en programacion de sotfware
+                                </h4>
+
+                                <h5 class="card-subtitle mb-2 text-muted small">
+                                    2304 horas
+                                </h5>
+
+                                <h6 class="mb-2 text-muted small" style="text-align: justify;">
+                                    I.E san sebastian<br>
+                                    Manizales, 02 de febrero 2025 - (sena)
+                                </h6>
+
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    TECNOLOGÍA A MI ALCANCE
+                                </h4>
+
+                                <h5 class="card-subtitle mb-2 text-muted small">
+                                    6 horas
+                                </h5>
+
+                                <h6 class="mb-2 text-muted small" style="text-align: justify;">
+                                    I.E san sebastian<br>
+                                    Manizales, 15 de marzo 2023 - (sena)
+                                </h6>
+
+                            </div>
+                        </div>
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h4 class="card-title fw-bold">
+                                    EXPLORANDO EL GRAN UNIVERSO DE LINUX - LINUX BATOCERA
+                                </h4>
+
+                                <h5 class="card-subtitle mb-2 text-muted small">
+                                    6 horas
+                                </h5>
+
+                                <h6 class="mb-2 text-muted small" style="text-align: justify;">
+                                    I.E san sebastian<br>
+                                    Manizales, 22 de abril 2024 - (sena)
+                                </h6>
+
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="text-center mb-4">
+        <button onclick="downloadPDF()" class="btn btn-outline-primary">
+            Descarga en PDF ↓
+        </button>
+    </div>
+    <script src="https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
